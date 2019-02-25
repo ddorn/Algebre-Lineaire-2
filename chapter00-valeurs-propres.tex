@@ -12,7 +12,7 @@
 
 \begin{example}
   \label{exe:23}
-  Soit $f：V⟶V$, l'endomorphisme $f(v) = 0$ pour tous $v ∈V$. Alors tous $0≠v ∈V$ est un vecteur propre associé à $λ=0$. 
+  Soit $f：V⟶V$, l'endomorphisme $f(v) = 0$ pour tout $v ∈V$. Alors tout $0≠v ∈V$ est un vecteur propre associé à $λ=0$.
 \end{example}
 
 
@@ -31,7 +31,7 @@ si et seulement si $v_i$ est un vecteur propre associé à la valeur propre $λ_
 \end{lemma}
 
 \begin{proof}
-    Pour $v ∈V$ soit $[v]_B ∈K^n$ le vecteur des coordonnées de $v$ relatif à $B$. On a $[f(v_i)]_B = A \,  [v_i]_B$ pour $i=1,\dots,n$. Des que $[v_i]_B = e_i$, et $f(v_i) = λ_i v_i$ alors
+    Pour $v ∈V$ soit $[v]_B ∈K^n$ le vecteur des coordonnées de $v$ relatif à $B$. On a $[f(v_i)]_B = A \,  [v_i]_B$ pour $i=1,\dots,n$. Dès que $[v_i]_B = e_i$, et $f(v_i) = λ_i v_i$ alors
     \begin{displaymath}
       λ_i ⋅ e_i = A \, e_i, \text{ pour } i ∈\{1,\dots,n\}.
     \end{displaymath}
@@ -40,7 +40,7 @@ si et seulement si $v_i$ est un vecteur propre associé à la valeur propre $λ_
 
 \begin{definition}
   \label{def:39}
-  Un endomorphisme $f ：V ⟶ V$ pour lequel existe une base de $V$ composée de vecteurs propres est \emph{diagonalisable}. 
+  Un endomorphisme $f ：V ⟶ V$ pour lequel existe une base de $V$ composée de vecteurs propres est \emph{diagonalisable}.
 \end{definition}
 
 
@@ -96,7 +96,7 @@ On va voir que si on consid\`ere $A$ comme une matrice complexe, alors on a touj
 
 
 
-Rappel: L'endomophisme $\Id ： V ⟶V$ défini comme $\Id(v) = v$ pour tous $v∈ V$  est appelé l'\emph{identité}.
+Rappel: L'endomophisme $\Id ： V ⟶V$ défini comme $\Id(v) = v$ pour tout $v∈ V$  est appelé l'\emph{identité}.
 
 \begin{definition}
   \label{def:1}
@@ -113,13 +113,13 @@ Rappel: L'endomophisme $\Id ： V ⟶V$ défini comme $\Id(v) = v$ pour tous $v�
 \end{lemma}
 
 \begin{proof}
-  Supposons que le théorème soit faux et soit $r≥1$ minimal, tel qu'il existent des vecteurs propres $v_1,\dots,v_r ∈V$  associés aux valeurs propres $λ_1,\dots,λ_r$ qui sont linéairement dépendants. Des que $v_i ≠0$ alors $r>1$.
+  Supposons que le théorème soit faux et soit $r≥1$ minimal, tel qu'il existent des vecteurs propres $v_1,\dots,v_r ∈V$  associés aux valeurs propres $λ_1,\dots,λ_r$ qui sont linéairement dépendants. Dès que $v_i ≠0$ alors $r>1$.
   Considérons une combinaison linéaire non triviale
   \begin{equation}
     \label{eq:35}
     α_1 v_1 + \cdots + α_n v_n = 0.
   \end{equation}
-  Des que \eqref{eq:35} est un contre exemple minimal, on  $α_i≠0$ pour tous $i$. Nous pouvons supposer que $λ_r ≠0$. Autrement, on réarrange~\eqref{eq:35}. 
+  Dès que \eqref{eq:35} est un contre exemple minimal, on  $α_i≠0$ pour tout $i$. Nous pouvons supposer que $λ_r ≠0$. Autrement, on réarrange~\eqref{eq:35}.
 
   Si on applique $f$ à l'expression \eqref{eq:35} on obtient
   \begin{displaymath}
@@ -214,7 +214,7 @@ Les colonnes de la matrice $A_B$ sont les coordonnées de $f(v_1),\dots,f(v_n)$ 
 \begin{displaymath}
   [x]_{B'} = P_{BB'}[x]_B,
 \end{displaymath}
-où $P_{BB'}$ est la matrice de changement de base de $B$ en $B'$. Des que
+où $P_{BB'}$ est la matrice de changement de base de $B$ en $B'$. Dès que
 \begin{displaymath}
   [f(v)]_{B'} = A_{B'} [v]_{B'} = A_{B'} P_{BB'}[v]_B
 \end{displaymath}
@@ -233,9 +233,9 @@ Et ça implique
 \end{equation}
 En particulier,
 \begin{displaymath}
-  \det(A_{B'}) = \det(A_B) 
+  \det(A_{B'}) = \det(A_B)
 \end{displaymath}
-ce qui laisse nous définir la \emph{déterminante d'un endomorphisme} $f$ comme $\det(f)= \det(A_B)$. 
+ce qui laisse nous définir la \emph{déterminante d'un endomorphisme} $f$ comme $\det(f)= \det(A_B)$.
 
 
 
@@ -252,16 +252,16 @@ Rappelons nous la formule de Leibniz pour la déterminante d'une matrice $B ∈ 
   \label{eq:31}
   \det(B)  = ∑_{π ∈S_n} \sign(π) ∏_{i=1}^n b_{iπ(i)}
 \end{equation}
-et si on collecte les potences de $λ$, alors
+et si on collecte les puissances de $λ$, alors
 \begin{equation}
   \label{eq:32}
   \det(A - λI_n) = a_n λ^n + a_{n-1} λ^{n-1}+ \dots + a_1 λ+ a_0
 \end{equation}
-où $a_n,\dots,a_0 ∈K$. Des que $\det(A) = \det(A - 0 ⋅ I_n)$, alors $a_0 = \det(A)$.
+où $a_n,\dots,a_0 ∈K$. Dès que $\det(A) = \det(A - 0 ⋅ I_n)$, alors $a_0 = \det(A)$.
 
 \subsection{Polynômes}
 \label{sec:polynomes}
-Soit $K$ un corps et soit $x$ un nouveau élément qui n'appartient pas à $K$. Nous considérons les expressions
+Soit $K$ un corps et soit $x$ un nouvel élément qui n'appartient pas à $K$. Nous considérons les expressions
 \begin{equation}
   \label{eq:33}
   p(x) = a_0 + a_1 x + \cdots + a_n x^n
@@ -269,9 +269,9 @@ Soit $K$ un corps et soit $x$ un nouveau élément qui n'appartient pas à $K$. 
 où $a_i ∈K$ pour $i=1,\dots,n$ et $x$ est une \emph{indéterminée} ou une  \emph{variable}.
 D'un point de vue formel, $x ∈ R ⧹K$, où $R⊃K$ est un anneau intègre, tel que
 \begin{displaymath}
-  a_0+ a_1x + \cdots + a_n x^n =0, \, a_i ∈K, \text{ implique } a_i=0 \text{ pour tous }i.  
+  a_0+ a_1x + \cdots + a_n x^n =0, \, a_i ∈K, \text{ implique } a_i=0 \text{ pour tout }i.
 \end{displaymath}
-L'existence de $R$ et $x$ est traité en détail dans le cours \emph{anneaux et corps}. 
+L'existence de $R$ et $x$ est traitée en détail dans le cours \emph{anneaux et corps}.
 L'élément $a_i$ est le $i$-ème coefficient de $p(x)$. Le polynôme $p(x)$ est écrit comme
 \begin{displaymath}
   p(x) = a_0 + a_1x + a_2x^2 + \cdots
@@ -282,7 +282,7 @@ Des expressions \eqref{eq:33} sont des polynômes sur $K$  et $K[x]$ est l'ensem
   \label{eq:34}
   p(x) = a_0 + a_1x + a_2x^2 + \cdots \,\,\text{ et }  \,\, q(x) = b_0 + b_1x + b_2x^2 + \cdots
   \end{equation}
-  sont \emph{égaux} si $a_i  =b_i$ pour tous $i$. Dans ce cas, on écrit $p(x) = q(x)$.
+  sont \emph{égaux} si $a_i  =b_i$ pour tout $i$. Dans ce cas, on écrit $p(x) = q(x)$.
 La \emph{somme} de $p(x)$ et $q(x)$~\eqref{eq:34} est le polynôme
 \begin{displaymath}
   p(x) + q(x)  = a_0+b_0 + (a_1+b_1)x + (a_2+b_2)x^2 + \cdots
@@ -299,20 +299,20 @@ Le $i$-ème coefficient de $p(x)⋅q(x)$ est alors  $∑_{j+k=i}a_jb_k$.
   L'ensemble des polynômes $K[x]$ sur un corps $K$ est un anneau intègre.
 \end{theorem}
 
-Le \emph{degré} de $p(x) = a_0 + a_1x + a_2x^2 + \cdots \neq 0$ est 
+Le \emph{degré} de $p(x) = a_0 + a_1x + a_2x^2 + \cdots \neq 0$ est
 \begin{displaymath}
   \deg(p) = \max\{i \colon  a_i \neq 0\}
 \end{displaymath}
-et $\deg(0) = -\infty$. 
-Si $p \neq 0$, le coefficient $a_{\deg(p)}$ est le \emph{coefficient dominant} de $p$. 
-Un polynôme de degré zéro est une \emph{constante}. 
+et $\deg(0) = -\infty$.
+Si $p \neq 0$, le coefficient $a_{\deg(p)}$ est le \emph{coefficient dominant} de $p$.
+Un polynôme de degré zéro est une \emph{constante}.
 
 \begin{theorem}
   \label{thr:34}
-  Pour $f,g \in K[x] $, $\deg(f \cdot g) = \deg(f) + \deg(g)$. 
+  Pour $f,g \in K[x] $, $\deg(f \cdot g) = \deg(f) + \deg(g)$.
 \end{theorem}
 \begin{proof}
-  La formule~\eqref{ceq:21} révèle que $\deg(f\cdot g) \leq \deg(f) + \deg(g)$. 
+  La formule~\eqref{ceq:21} révèle que $\deg(f\cdot g) \leq \deg(f) + \deg(g)$.
   Soient $f(x) = a_0 + \cdots + a_n x^n$ et $g(x) = b_0+ \cdots b_m x^m$ tels que $a_n, b_m  \neq 0$. Le coefficient de $x^{n+m}$  est $a_n \cdot  b_m \neq 0$.
 \end{proof}
 
@@ -327,18 +327,18 @@ La démonstration du théorème~\ref{thr:42} est le premier exercice maison.
 
 \begin{definition}
   \label{def:31}
-  Soit $f(x) \in \K[x] \setminus\{0\}$. Un $\alpha \in K$ tel que $f(\alpha) = 0$ est une  \emph{ racine} de $f(x)$.  
+  Soit $f(x) \in \K[x] \setminus\{0\}$. Un $\alpha \in K$ tel que $f(\alpha) = 0$ est une \emph{racine} de $f(x)$.
 \end{definition}
 
 
-\begin{theorem}[Théorème fondamentale d'algebre]
+\begin{theorem}[Théorème fondamental de l'algèbre]
   \label{thr:44}
   Tout polynôme $p(x) ∈ℂ[x] ⧹\{0\}$ de degré aux moins $1$  admet au moins une racine complexe.
 \end{theorem}
 
 L'expression \eqref{eq:32} est un polynôme avec indéterminée $λ$ et  comme polynôme formel, est défini par la formule de Leibniz
 \begin{displaymath}
-p_A(λ)  \det(A - λ I_n) = ∑_{π ∈S_n} \sign(π) ∏_{i=1}^n (A - λ I_n)_{iπ(i)}.
+p_A(λ) =  \det(A - λ I_n) = ∑_{π ∈S_n} \sign(π) ∏_{i=1}^n (A - λ I_n)_{iπ(i)}.
 \end{displaymath}
 Il est la somme des polynômes $ \sign(π) ∏_{i=1}^n (A - λ I_n)_{iπ(i)}$. Ça démontre que le degré de $p_A(λ)$ est au plus $n$. Mais le degré de
 \begin{displaymath}
@@ -352,113 +352,113 @@ Soit $p_A(λ) = a_0 + a_1 λ + \cdots + a_n λ^n$ le polynôme caractéristique 
 \end{lemma}
 
 
-La division avec reste est l'opération suivante. 
+La division avec reste est l'opération suivante.
 
 \begin{theorem}
   \label{thr:33}
-  Soient $f,g \in K[x]$ et $\deg(g) >0$. Il existe $q,r \in K[x]$ unique  tels que 
+  Soient $f,g \in K[x]$ et $\deg(g) >0$. Il existe $q,r \in K[x]$ unique  tels que
   \begin{displaymath}
-    f(x) = q(x) g(x) + r(x) 
+    f(x) = q(x) g(x) + r(x)
   \end{displaymath}
-  et $\deg(r) < \deg(g)$. 
+  et $\deg(r) < \deg(g)$.
 \end{theorem}
 
 
 \begin{proof}
   La preuve se fait par induction sur $\deg(f)$. Si $\deg(f) < \deg(g)$, alors on pose $q = 0$ et $r = f$.
 
-Soit alors $\deg(f) = n \geq \deg(g)=m$ et 
+Soit alors $\deg(f) = n \geq \deg(g)=m$ et
 \begin{displaymath}
-  f(x) = a_0+ \cdots +a_n x^n \text{ et } g(x) = b_0 + \cdots + b_m x^m 
+  f(x) = a_0+ \cdots +a_n x^n \text{ et } g(x) = b_0 + \cdots + b_m x^m
 \end{displaymath}
-où $a_n$ et $b_m$ sont les coefficients dominants de $f$ et $g$ respectivement. 
-Clairement 
+où $a_n$ et $b_m$ sont les coefficients dominants de $f$ et $g$ respectivement.
+Clairement
 \begin{displaymath}
   \deg\left( f(x) - \frac{a_n}{ b_m } x^{n-m} g(x) \right) < \deg(f(x))
 \end{displaymath}
-et par induction 
+et par induction
 \begin{displaymath}
-  f(x) - \frac{a_n}{ b_m } x^{n-m} g(x)  = q(x) g(x) + r(x) 
+  f(x) - \frac{a_n}{ b_m } x^{n-m} g(x)  = q(x) g(x) + r(x)
 \end{displaymath}
 tel que $\deg(r(x)) < \deg(g(x))$. On  obtient alors
 \begin{displaymath}
-  f(x) = (q(x) + \frac{a_n}{ b_m } x^{n-m} ) g(x) + r(x). 
+  f(x) = (q(x) + \frac{a_n}{ b_m } x^{n-m} ) g(x) + r(x).
 \end{displaymath}
 
-Supposons maintenant qu'il existent autres polynômes $q'(x)$ et $r'(x)$ tel que 
+Supposons maintenant qu'il existent autres polynômes $q'(x)$ et $r'(x)$ tel que
 \begin{displaymath}
-    f(x) = q'(x) g(x) + r'(x) 
+    f(x) = q'(x) g(x) + r'(x)
   \end{displaymath}
-  et $\deg(r') < \deg(g)$. 
+  et $\deg(r') < \deg(g)$.
 \end{proof}
-Alors 
+Alors
 \begin{displaymath}
-0 \neq   r(x) - r'(x) = (q(x) - q'(x)) ⋅ g(x). 
+0 \neq   r(x) - r'(x) = (q(x) - q'(x)) ⋅ g(x).
 \end{displaymath}
-On peut déduire 
+On peut déduire
 \begin{displaymath}
-\max\{\deg(r),\deg(r')\} \geq   \deg( r - r')  = \deg(q - q') + \deg(g) \geq \deg(g), 
+\max\{\deg(r),\deg(r')\} \geq   \deg( r - r')  = \deg(q - q') + \deg(g) \geq \deg(g),
 \end{displaymath}
-ce qui contredit le fait que $\deg(r) < \deg(g)$ et $\deg(r') < \deg(g)$. 
+ce qui contredit le fait que $\deg(r) < \deg(g)$ et $\deg(r') < \deg(g)$.
 
 \begin{definition}
-  Pour $f(x)  = a_0 + \cdots + a_n x^n \in K[x]$ et $\alpha \in K$, l'évaluation $f(\alpha)$ est $ a_0 + a_1 \alpha + \cdots + a_n \alpha^n \in K$. 
+  Pour $f(x)  = a_0 + \cdots + a_n x^n \in K[x]$ et $\alpha \in K$, l'évaluation $f(\alpha)$ est $ a_0 + a_1 \alpha + \cdots + a_n \alpha^n \in K$.
 \end{definition}
 
 
 \begin{example}
   \label{exe:24}
-  Faire la division avec reste des polynômes  $x^5+2x^2+1$ par $2x^3+x+1$ de $ℤ_3[x]$ 
+  Faire la division avec reste des polynômes  $x^5+2x^2+1$ par $2x^3+x+1$ de $ℤ_3[x]$
 \end{example}
 
 %\begin{proposition}
 %  \label{prop:5}
-%  Pour $\alpha \in K$, $\phi_\alpha: \, K[x] \longrightarrow K$, %$\phi_\alpha(f(x)) = f(\alpha)$ est un homomorphisme.  
+%  Pour $\alpha \in K$, $\phi_\alpha: \, K[x] \longrightarrow K$, %$\phi_\alpha(f(x)) = f(\alpha)$ est un homomorphisme.
 %\end{proposition}
 
 
 \begin{definition}
   \label{def:32}
-  Un polynôme  $q(x)$ \emph{divise} un autre polynôme $f(x)$ s'il existe un polynôme $g(x)$ tel que $f(x) = g(x) \cdot q(x)$. On dit que $q(x)$ est un diviseur de $f(x)$ et on écrit $q(x) \mid f(x)$. 
+  Un polynôme  $q(x)$ \emph{divise} un autre polynôme $f(x)$ s'il existe un polynôme $g(x)$ tel que $f(x) = g(x) \cdot q(x)$. On dit que $q(x)$ est un diviseur de $f(x)$ et on écrit $q(x) \mid f(x)$.
 \end{definition}
 
 \begin{theorem}
   \label{thr:35}
-  Soit $f(x)$ un polynôme  et $\alpha \in K$, alors $\alpha$ est une racine de $f$ si et seulement si $(x- \alpha)  \mid f(x)$. 
+  Soit $f(x)$ un polynôme  et $\alpha \in K$, alors $\alpha$ est une racine de $f$ si et seulement si $(x- \alpha)  \mid f(x)$.
 \end{theorem}
 
 \begin{proof}
-  Si $f(x) = q(x) \cdot (x - \alpha)$, alors $f(\alpha) = 0$. 
+  Si $f(x) = q(x) \cdot (x - \alpha)$, alors $f(\alpha) = 0$.
 
 %Autrement, si $f$ est une constante, $f = 0$ et $(x - \alpha)$ divise $f$.
-Dans l'autre sens, si $f$ est une constante, $f(\alpha) = 0$ implique que $f = 0$ et $(x - \alpha)$ divise $f$. 
+Dans l'autre sens, si $f$ est une constante, $f(\alpha) = 0$ implique que $f = 0$ et $(x - \alpha)$ divise $f$.
 
 Si $f$ n'est pas une constante, il existe $q(x)$ et $r(x)$ tels que
 \begin{displaymath}
   f(x) = q(x) \cdot (x - \alpha) + r(x)
 \end{displaymath}
-%$\deg(r) = 0$. Alors $f(\alpha) = 0$ implique $r=0$. 
-avec $\deg(r) \leq 0$. Alors $f(\alpha) = 0$ implique $r=0$. 
+%$\deg(r) = 0$. Alors $f(\alpha) = 0$ implique $r=0$.
+avec $\deg(r) \leq 0$. Alors $f(\alpha) = 0$ implique $r=0$.
 \end{proof}
 
 
 \begin{definition}
   \label{def:41}
-  La \emph{multiplicité} d'une racine $α$ de $p(x) ∈ K[x] ⧹\{0\}$ est le plus grand $i≥1$ tel que $ (x-α)^i \mid p(x)$. Si $p(x)$ est le polynôme caractéristique d'un endomorphisme d'un espace vectoriel, on appelle la multiplicité de $α$ la \emph{multiplicité algébrique}. 
-\end{definition} 
+  La \emph{multiplicité} d'une racine $α$ de $p(x) ∈ K[x] ⧹\{0\}$ est le plus grand $i≥1$ tel que $ (x-α)^i \mid p(x)$. Si $p(x)$ est le polynôme caractéristique d'un endomorphisme d'un espace vectoriel, on appelle la multiplicité de $α$ la \emph{multiplicité algébrique}.
+\end{definition}
 
 
 
 \begin{theorem}[Théorème de diagonalisation]
   \label{thr:45}
-  Soit $V$ un espace vectoriel sur $K$ de dimension $n$. Un endomorphisme  $f:V⟶V$  est diagonalisable si et seulement si 
+  Soit $V$ un espace vectoriel sur $K$ de dimension $n$. Un endomorphisme  $f:V⟶V$  est diagonalisable si et seulement si
   \begin{enumerate}[i)]
-  \item le polynôme caractéristique $p_f(x)$ de $f$ décompose en facteurs linéaires, c'est à dire, \label{item:19} 
+  \item le polynôme caractéristique $p_f(x)$ de $f$ décompose en facteurs linéaires, c'est à dire, \label{item:19}
     \begin{displaymath}
       p_f(x) = (-1)^n ∏_{i=1}^r (λ_i - x)^{g_i}
     \end{displaymath}
-    où $g_i$ est la multiplicité algébrique de $λ_i∈K$ pour tous $i$. 
-    \item  $\dim(E_{λ_i}) = g_i$, pour tous $i=1,\dots,r$. C'est à dire, les multiplicités algébriques et géométriques sont les mêmes. \label{item:20}
+    où $g_i$ est la multiplicité algébrique de $λ_i∈K$ pour tout $i$.
+    \item  $\dim(E_{λ_i}) = g_i$, pour tout $i=1,\dots,r$. C'est à dire, les multiplicités algébriques et géométriques sont les mêmes. \label{item:20}
   \end{enumerate}
 \end{theorem}
 
@@ -466,11 +466,11 @@ avec $\deg(r) \leq 0$. Alors $f(\alpha) = 0$ implique $r=0$.
   Soit $f$ diagonalisable. Soit $B$ une base composé de vecteurs propres de $f$ et $A$ la matrice de $f$ associé à la base $B$. Lemme~\ref{lem:4} implique que $A$ est diagonale et alors  $p_f(x) = \det(A - x \Id) = (-1)^n ∏_{i=1}^r (x - λ_i)^{g_i}$. La dimension de $E_{λ_i}$ est celle du $\ker(A - λ_i I_n)$. Et clairement $\dim(\ker(A - λ_i I_n)) = g_i$. Alors on a \ref{item:19}) et \ref{item:20}).
 
 
-  Si  on a \ref{item:19}) et \ref{item:20}), soient $m_i$ les multiplicités géométriques des valeurs propres $λ_i$, $i=1,\dots,r$. Des que
+  Si  on a \ref{item:19}) et \ref{item:20}), soient $m_i$ les multiplicités géométriques des valeurs propres $λ_i$, $i=1,\dots,r$. Dès que
   \begin{displaymath}
     \deg((-1)^n∏_{i=1}^n (λ_i -x)^{g_i} =n,
   \end{displaymath}
-  alors $m+1+ \cdots + m_r = n$ et $f$ est diagonalisable avec corollary~\ref{eco:1}. 
+  alors $m+1+ \cdots + m_r = n$ et $f$ est diagonalisable avec corollary~\ref{eco:1}.
 \end{proof}
 
 
